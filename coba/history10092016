@@ -1,0 +1,35 @@
+   53  echo "# 26414057" >>readme.md
+   54  git init
+   55  git add readme.md
+   56  git commit -m "first commit"
+   57  git remote add origin https://github.com/timothytamara/26414057.git
+   58  git push -u origin master
+   59  ~mkdir 10sept
+   60  mkdir
+   61  mkdir --help
+   62  mkdir coba
+   63  git init
+   64  ls -l
+   65  git remote -v
+   66  git clone git@github.com:timothytamara/26414057.git
+   67  ls
+   68  cd 26414057
+   69  ls
+   70  git remote -v
+   71  mkdir coba
+   72  cd coba
+   73  vi tes.txt
+   74  cd ..
+   75  git add coba/tes.txt
+   76  git commit -m "First commit"
+   77  git push origin master
+   78  cd coba
+   79  vi tes2.txt
+   80  git add tes2.txt
+   81  git commit -m "Commit kedua"
+   82  git push origin master
+   83  vi tes3.txt
+   84  git add tes3.txt
+   85  git commit -m "Last Commit"
+   86  git push origin master
+   87  history
