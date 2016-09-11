@@ -1,0 +1,7 @@
+ mkdir 11092016
+  104  cd 11092016
+  105  touch
+  106  touch file1.txt
+  107  cd file1.txt
+  108  vi file1.txt
+[A[A[A[A[A[A[[B[A	[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D  [B[A[Dmkd[D[D[D[as
