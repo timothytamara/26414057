@@ -1,7 +1,7 @@
- mkdir 11092016
-  104  cd 11092016
-  105  touch
-  106  touch file1.txt
-  107  cd file1.txt
-  108  vi file1.txt
-[A[A[A[A[A[A[[B[A	[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D  [B[A[Dmkd[D[D[D[as
+mkdir 11092016
+cd 11092016
+touch
+touch file1.txt
+cd file1.txt
+vi file1.txt
+history
