@@ -1,0 +1,15 @@
+170  git add satu.txt
+171  git commit -m "Commit 1"
+172  git push origin master
+173  git pull
+174  cd ..
+175  git add 13092016/satu.txt
+176  git commit -m "commit satu"
+177  git push origin master
+178  cd 13092016
+179  wc satu.txt
+180  uniq satu.txt
+181  diff
+182  diff satu.txt
+183  history
+			    
