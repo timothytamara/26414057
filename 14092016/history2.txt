@@ -1,0 +1,11 @@
+1 cd 26414057
+2 mkdir 14092016
+3 cd 14092016
+4 cat -> latihan.txt
+Linux
+Debian Linux
+Red Hat Linux
+Centos Linux Tutorial
+2014 cubnetwork linux
+2014
+history
