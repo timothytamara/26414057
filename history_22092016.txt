@@ -1,0 +1,82 @@
+  419  ls /usr/lib
+  420  cd awk
+  421  ls -l
+  422  ls /usr/lib -l
+  423  find -help
+  424  find /usr/lib -type f -name "*.py"
+  425  find /usr/lib -type f -name
+  426  find /usr/lib -type f -name "*.py"
+  427  cd usr
+  428  pwd
+  429  cd ..
+  430  cd ..
+  431  cd ..
+  432  cd usr/lib
+  433  ls
+  434  cd awk
+  435  touch python.py
+  436  ls
+  437  cd ~
+  438  pwd
+  439  find /usr/lib -d name "*.py"
+  440  find /usr/lib  -iname "*.py" |
+  441  vim script.py
+  442  vim script.sh
+  443  ls
+  444  ll
+  445  ll script.sh
+  446  ./script.sh
+  447  find /usr/lib -d name "*.py"
+  448  find /usr/lib -iname "*.py"
+  449  mkdir test
+  450  cd test/
+  451  ls
+  452  ll
+  453  ls -la
+  454  cp /usr/lib/awk/python.py .
+  455  ls
+  456  rm python.py
+  457  ls
+  458  cp ../script.sh
+  459  cp ../script.sh .
+  460  ls
+  461  vim script.sh
+  462  source script.sh
+  463  vim script.sh
+  464  source script.sh
+  465  vim script.sh
+  466  source script.sh
+  467  source script.sh
+  468  vim script.sh
+  469  vim script.sh
+  470  source script.sh
+  471  vim script.sh
+  472  source script.sh
+  473  vim script.sh
+  474  vim script.sh
+  475  source script.sh
+  476  vim script.sh
+  477  source script.sh
+  478  vim script.sh
+  479  source script.sh
+  480  vim script.sh
+  481  source script.sh
+  482  vim script.sh
+  483  source script.sh
+  484  cd /usr/lib/
+  485  ls
+  486  cd ssh
+  487  ls
+  488  touch another.py
+  489  cd ~/test/
+  490  ls
+  491  ./script.sh
+  492  vim script.sh
+  493  ./script.sh
+  494  vim script.sh
+  495  source script.sh
+  496  ls
+  497  rm *.py
+  498  ls
+  499  ./script.sh
+  500  ls
