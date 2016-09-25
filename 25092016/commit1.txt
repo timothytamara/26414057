@@ -1,0 +1,15 @@
+ 478  cd 26414057
+  479  /sbin/ifconfig
+  480  /sbin
+  481  cd ..
+  482  cd ..
+  483  cd..
+  484  cd ..
+  485  cd ..
+  486  /sbin/ifconfig
+  487  cd ..
+  488  cd sbin
+  489  ifconfig
+  490  grep "MHz" /proc/cpuinfo
+  491  grep "MHz" /proc/cpuinfo | xargs echo | \ cut -f4.8 -d '
+  492  echo "My CPU: `grep "MHz" /ptoc/cpuinfo | \ xargs echo | cut -f4,8 -d' '`"
