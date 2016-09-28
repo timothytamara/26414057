@@ -1,0 +1,18 @@
+  500  curl www.klikbca.com
+  501  grep -n www.klikbca.com
+  502  grep \x www.klikbca.com
+  503  grep help
+  504  grep -help
+  505  grep "<>" www.klikbca.com
+  506  grep www.klikbca.com
+  507  curl www.klikbca.com | grep "<>"
+  508  curl www.klikbca.com | grep
+  509  curl www.klikbca.com | grep -n
+  510  curl www.klikbca.com
+  511  grep -n
+  512  grep -n <>
+  513  grep -n "<>"
+  514  grep -n "<>" | curl www.klikbca.com
+  515*
+  516  curl www.klikbca.com | grep -n "< >"
+  517  history.txt
