@@ -1,0 +1,2 @@
+echo "Hello" | mail -s "subject" user@domain.com
+mail -s "subject" user1@domain.com, user2@domain.com < mailmessage.txt

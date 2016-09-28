@@ -1,0 +1,8 @@
+  515  cat ->historysatu.txt
+  516  awk '{print $0}' latihan.txt
+  517  awk '{print $1}' latihan.txt
+  518  awk '{print $2}' latihan.txt
+  519  awk '{print $1,$2}' latihan.txt
+  520  awk '{print $1,"-",$2}' latihan.txt
+  521  history.txt
+  522  history

@@ -1,0 +1,6 @@
+cp file1.txt file2.txt
+ls
+vi file2.txt
+file file2.txt
+stat file2.txt
+history

@@ -1,0 +1,7 @@
+mkdir 11092016
+cd 11092016
+touch
+touch file1.txt
+cd file1.txt
+vi file1.txt
+history

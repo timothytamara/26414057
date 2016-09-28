@@ -1,0 +1,10 @@
+185  hostname
+186  ifconfig
+187  ping
+188  ping google.com -t
+189  traceroute
+190  netstat
+191  nmao
+192  nmap
+193  history
+

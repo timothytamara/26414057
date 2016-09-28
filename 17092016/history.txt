@@ -1,0 +1,12 @@
+393  mkdir 17092016
+394  cd 17092016
+395  cat -> latihan.txt
+396  grep "Linux" latihan.txt
+397  grep -i "Linux" latihan.txt
+398  grep "2" latihan.txt
+399  grep "2014$" latihan.txt
+400  grep "^Linux" latihan.txt
+401  grep  -i "^Linux$" latihan.txt
+402  vi history.txt
+403  ls
+404  history

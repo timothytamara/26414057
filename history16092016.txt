@@ -1,0 +1,17 @@
+370  cd 26414057
+371  ls -al
+372  mkdir 16092016
+373  cd 16092016
+374  cat -> 1.txt
+375  ls
+376  cat -> 2.txt
+377  ls
+378  cat-> 3.txt
+379  cat ->3.txt
+380  cd ..
+381  git add 16092016/1.txt
+382  git add 16092016/2.txt
+383  git add 16092016/3.txt
+384  git commit -m "Commit 16 September 2016"
+385  git push origin master
+386  history

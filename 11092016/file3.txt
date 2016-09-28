@@ -1,0 +1,5 @@
+cp file2.txt file3.txt
+vi file3.txt
+lsattr
+lsattr file3.txt
+history

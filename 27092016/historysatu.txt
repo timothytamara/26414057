@@ -1,0 +1,15 @@
+  500  cd 26414057
+  501  mkdir 27092016
+  502  cd 27092016
+  503  cat -> latihan.txt
+  504  touch latihan.txt
+  505  cat latihan.txt
+  506  sed -n '1p' latihan.txt
+  507  sed -n '2p' latihan.txt
+  508  sed -n '3p' latihan.txt
+  509  sed -n '$p' latihan.txt
+  510  sed -n 2,5p latihan.txt
+  511  sed -n '1!p' latihan.txt
+  512  sed -n '1,2!p' latihan.txt
+  513  history.txt
+  514  history

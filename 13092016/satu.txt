@@ -1,0 +1,11 @@
+157  cd 26414057
+158  mkdir 13092016
+159  cd 13092016
+160  echo "Tes"
+161  cat
+162  strings
+163  grep
+164  vi satu.txt
+165  grep satu.txt
+166  cat satu.txt
+167  history
