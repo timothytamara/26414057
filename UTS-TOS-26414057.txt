@@ -1,0 +1,16 @@
+1.
+
+curl -s http://www.elevenia.co.id/prd-apple-iphone-7-plus-black-128gb-garansi-6242166 | 
+grep Rp  | 
+awk -F'<' '{print $2}' | 
+awk -F'>' '{print $2}' | 
+grep "^[0-9]" | 
+awk '{print "Harga:" ($4*3)}' >/home/harga.txt
+
+crontab 0 * * * 1,2,3,4,5 /home/harga.txt
+
+mail - s "subject" user1@domain.com, < /home/harga.txt
+
+2.
+
+curl -s http://stats.labs.apnic.net/ipv6/ID
