@@ -1,0 +1,2 @@
+1 $ tar cvf nama_arsip.tar namadirektori/
+2 $ tar xvf nama_arsip.tar

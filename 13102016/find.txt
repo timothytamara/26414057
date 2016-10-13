@@ -1,0 +1,2 @@
+1 # find -iname "MyCProgram.c"
+2 $ find -iname "MyCProgram.c" -exec md5sum{}' \;[D[D[D[D[[C[C[C[C

@@ -1,0 +1,2 @@
+$ grep -i "the" file_demo
+grep -A 3 -i "contoh" text_demo
