@@ -1,0 +1,2 @@
+$ sort namafile.txt
+$ sort -r namafile.txt

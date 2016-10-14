@@ -1,0 +1,4 @@
+$ export | grep ORACLE
+declare -x ORACLE_BASE="/u01/app/oracle"
+declare -x ORACLE_HOME="/u01/app/oracle/product/10.2.0"
+declare -x ORACLE_SID="med"

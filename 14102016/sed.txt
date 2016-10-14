@@ -1,0 +1,3 @@
+1 $sed 's/.//' filename
+2 $sed[D[D[A[D [B[D[A[s[B[Ds[C[C -n '1`G;h;$p' jurnalweb.txt
+3 $ sed 

@@ -1,0 +1,2 @@
+1 $ awk '!()[D$0 in array) { [D array[$0];print }' temp
+2 $awk -F ':' '$3==$4' passwd.txt
