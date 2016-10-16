@@ -1,0 +1,3 @@
+rm file
+rm -r direktori
+rm coba.txt

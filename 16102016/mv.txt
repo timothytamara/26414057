@@ -1,0 +1,1 @@
+mv direktori_atau_file direktori_atau_file_baru

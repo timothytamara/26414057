@@ -1,0 +1,1 @@
+cp nama_file.txt nama_file_baru.txt

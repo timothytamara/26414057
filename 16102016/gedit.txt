@@ -1,0 +1,2 @@
+gedit nama_file.txt
+gedit coba.txt
