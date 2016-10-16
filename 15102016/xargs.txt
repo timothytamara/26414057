@@ -1,0 +1,3 @@
+# ls *.jpg | xargs -n1 -i cp{} /external-hard-drive/directory
+# find / -name *.jpg -type f -print | xargs tar -cvzf images.tar.gz
+# cat url-list.txt | xargs wget -c

@@ -1,0 +1,4 @@
+ls -lh
+$ ls -ltr
+ls -al
+ls -F
