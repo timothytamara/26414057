@@ -1,0 +1,2 @@
+$ gzip test.txt
+$ gzip -d test.txt.gz
