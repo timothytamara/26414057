@@ -1,0 +1,15 @@
+  499  cd 26414057
+  500  mkdir 17102016
+  501  cd 17102016
+  502  cat > pwd.txt
+  503  cat > gzip.txt
+  504  cat > bzip2.txt
+  505  cat > unzip.txt
+  506  cd ..
+  507  git add 17102016/pwd.txt
+  508  git add 17102016/gzip.txt
+  509  git add 17102016/bzip2.txt
+  510  git add 17102016/unzip.txt
+  511  git commit -m "Commit 17 Oktober 2016"
+  512  git push origin master
+  513  history
