@@ -5,8 +5,10 @@ unzip file.zip -d utstos |
 cd utstos |
 sed -n 'p' API_SI.POV.GINI_DS2_en_csv_v2.csv |
 awk '{print $1}' API_SI.POV.GINI_DS2_en_csv_v2.csv |
-
-API_SI.POV.GINI_DS2_en_csv_v2.csv
+echo -e '6\n2\n4\n3\n1' | awk 'NR == 1 { max=$1; min=$1; sum=0 }
+   { if ($1>max) max=$1; if ($1<min) min=$1; sum+=$1;}
+   END {printf "Min: %d\tMax: %d\tAverage: %f\n", min, max, sum/NR}'|
+   
 
 2.
 curl --data "selprop=35&selrepo=lhk03prov&seltgl=01&selbul=10&seltah=16" http://aplikasi.pertanian.go.id/smshargakab/qrylapharprov.asp |
