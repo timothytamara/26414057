@@ -12,7 +12,9 @@ echo -e '6\n2\n4\n3\n1' | awk 'NR == 1 { max=$1; min=$1; sum=0 }
 
 2.
 curl --data "selprop=35&selrepo=lhk03prov&seltgl=01&selbul=10&seltah=16" http://aplikasi.pertanian.go.id/smshargakab/qrylapharprov.asp |
-curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" http://aplikasi.pertanian.go.id/smshargakab/qrylapharprov.asp -d '{"no":"no","Nama kabupaten":"kabupaten","Bawang Merah Kering":"bmk","Cabe Merah Besar":"cmb"}' | grep }| python -mjson.tool
+curl -X POST  -H "Accept: Application/json" -H "Content-Type: application/json" http://aplikasi.pertanian.go.id/smshargakab/qrylapharprov.asp -d '{"no":"no","Nama kabupaten":"kabupaten","Bawang Merah Kering":"bmk","Cabe Merah Besar":"cmb"}' | grep }| python -mjson.tool |
+crontab 0 0 1-31 10 * >>file.txt
+
 
 selprop=35   //atur provinsi
 selrepo=lhk03prov //atur laporan
